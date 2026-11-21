@@ -2,7 +2,9 @@
 
 Una app para votar por personajes de **Pokémon, Rick and Morty, superhéroes y Naruto**. Cada carta sale al azar de una API pública distinta; tú decides si te gusta o no, y el marcador muestra en tiempo real cuáles son los favoritos y los más rechazados.
 
-**Demo:** _próximamente_ · **API:** _próximamente_
+**[Ver demo en vivo](https://character-clash-vert.vercel.app)** · [API](https://character-clash-api.onrender.com/api/health)
+
+> La API está en el plan gratuito de Render: si lleva un rato sin uso, la primera carta puede tardar unos 30 segundos en aparecer.
 
 ![Vista de Character Clash](docs/preview.png)
 
