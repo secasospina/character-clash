@@ -1,0 +1,17 @@
+# Dependencias y builds
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Variables de entorno (nunca se suben)
+.env
+.env.local
+.env.*.local
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log

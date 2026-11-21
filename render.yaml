@@ -1,0 +1,17 @@
+# Configuración para desplegar la API en Render (https://render.com)
+services:
+  - type: web
+    name: character-clash-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
+    healthCheckPath: /api/health
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: CORS_ORIGIN
+        sync: false
+      - key: SUPERHERO_API_KEY
+        sync: false
